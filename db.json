@@ -1,0 +1,130 @@
+{
+  "users": [
+    {
+      "email": "hoang@gmail.com",
+      "password": "$2a$10$OiVrF0JGI4hQiO/kUYYTcOmbZ8nl6wWmbc86jLsjneGreoNA6mi92",
+      "id": 1,
+      "role": "admin",
+      "card": []
+    },
+    {
+      "email": "wd18337@gmail.com",
+      "password": "$2a$10$CCV3r.MUZ3pxSkAqu9kt1efCxoquFZnhIrbu0OBv1j0ZRl35A8rbu",
+      "role": "admin",
+      "card": [],
+      "id": 2
+    },
+    {
+      "email": "hoang123@gmail.com",
+      "password": "$2a$10$AupzfK9D9TaTWiDIO1H62.rFXi8nXCZ..FxuCpbJ8Xy8NbzyQKaHK",
+      "gender": "male",
+      "role": "admin",
+      "card": [],
+      "id": 3
+    },
+    {
+      "email": "hoang11111@gmail.com",
+      "password": "$2a$10$YEk0U5KUgZcRRsMpuoqJbeuj9bUzvYdzVclU45Guz2Eotid86QBIy",
+      "id": 4
+    },
+    {
+      "email": "hoang12121@gmail.com",
+      "password": "$2a$10$.GhWYClAOyBnlWWWApbZaenmVUSsGqP3H5.P9GY96peoidM27QZeG",
+      "id": 5
+    },
+    {
+      "email": "hoang1111@gmail.com",
+      "password": "$2a$10$DSgKORkSPJszrrexFuK1SualInj7nzWgN.KXf5VK7Xkt1nDLZTfP.",
+      "id": 6
+    },
+    {
+      "email": "hoang999@gmail.com",
+      "password": "$2a$10$axk2VU5yXcsRZOSmKLaJ6e.LPjg2msleJr7SKr7rh8hlbh8MyMbp6",
+      "id": 7
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$UoJG2TKcdChKg8nmJcwWSOpNt.BdQKaE/hGX/oxqD69kFTaQzRbqS",
+      "id": 8,
+      "role": "admin"
+    },
+    {
+      "email": "adminpro@gmail.com",
+      "password": "$2a$10$C9iRehO9tXdVohjpt1VtDurlGZDnafM8Z.DkA521gbv5Q9lcQ1nEq",
+      "id": 9,
+      "role": "admin"
+    },
+    {
+      "email": "phuongbui2580@gmail.com",
+      "password": "$2a$10$PdUm0nHmc2S9vPfINGxII.B.umtGRfBHQB6JrQoG88NYU4esUjD2e",
+      "id": 10,
+      "role": "admin"
+    },
+    {
+      "email": "123@gmail.com",
+      "password": "$2a$10$r6ySleKpuFMdoHMKygEUwORQra2CPyYPmaIXCVgE91Xbe1UjMPfCK",
+      "id": 11
+    }
+  ],
+  
+  "products":
+  [
+      {
+          "id": 1,
+          "title": "Trà Sữa Chân Châu Đường Hổ",
+          "image": "https://tocotocotea.com/wp-content/uploads/2024/01/kem-ly-dau-sua-TEA.png",
+          "price":33.000,
+          "discount": 25.000
+        },
+      {
+          "id": 2,
+          "title": "Trà Sữa Phô Mai Tươi",
+          "image": "https://tocotocotea.com/wp-content/uploads/2024/01/O-long-tuyet-le-khong-lo.png",
+          "price": 28.000,
+          "discount": 25.000
+        },
+      {
+          "id": 3,
+          "title": "Trà Đào Dâu Tây Kem Phô Mai",
+          "image": "https://tocotocotea.com/wp-content/uploads/2023/12/z4967287161207_d582f10a876bcc7359666df4f2ec76c5.jpg",
+          "price": 46.000,
+          "discount": 25.000
+        },
+      {
+          "id": 4,
+          "title": "Trà Mận Hạt Sen",
+          "image": "https://tocotocotea.com/wp-content/uploads/2023/11/z4925614515113_5bdf67d7e4b3ee98215ea11da9b303e9.jpg",
+          "price": 48.000,
+          "discount": 25.000
+        },
+      {
+          "id": 5,
+          "title": "Trà Bưởi Hồng Trân Châu...",
+          "image": "https://tocotocotea.com/wp-content/uploads/2023/05/O-Long-Man-Kem-Pho-Mai.jpg",
+          "price": 38.000,
+          "discount": 25.000
+        },
+      {
+          "id": 6,
+          "title": "Instant Milk Tea - Strawberry...",
+          "image": "https://tocotocotea.com/wp-content/uploads/2022/06/Stawberry-Milk-Tea.jpg",
+          "price": 165.000,
+          "discount": 65.000
+        },
+      {
+          "id": 7,
+          "title": "Instant Milk Tea - Original - Se..",
+          "image": "https://tocotocotea.com/wp-content/uploads/2022/06/Original-Milk-Tea.jpg",
+          "price": 160.000,
+          "discount": 160.000
+        },
+      {
+          "id": 8,
+          "title": "Instant Milk Tea Strawberry",
+          "image": "https://tocotocotea.com/wp-content/uploads/2021/11/Grass-Jelly-Milk-Coffee.png",
+          "price": 26.000,
+          "discount": 26.000
+        }
+       
+  ]
+}
