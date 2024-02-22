@@ -66,65 +66,62 @@
       "id": 11
     }
   ],
-  
-  "products":
-  [
-      {
-          "id": 1,
-          "title": "Trà Sữa Chân Châu Đường Hổ",
-          "image": "https://tocotocotea.com/wp-content/uploads/2024/01/kem-ly-dau-sua-TEA.png",
-          "price":33.000,
-          "discount": 25.000
-        },
-      {
-          "id": 2,
-          "title": "Trà Sữa Phô Mai Tươi",
-          "image": "https://tocotocotea.com/wp-content/uploads/2024/01/O-long-tuyet-le-khong-lo.png",
-          "price": 28.000,
-          "discount": 25.000
-        },
-      {
-          "id": 3,
-          "title": "Trà Đào Dâu Tây Kem Phô Mai",
-          "image": "https://tocotocotea.com/wp-content/uploads/2023/12/z4967287161207_d582f10a876bcc7359666df4f2ec76c5.jpg",
-          "price": 46.000,
-          "discount": 25.000
-        },
-      {
-          "id": 4,
-          "title": "Trà Mận Hạt Sen",
-          "image": "https://tocotocotea.com/wp-content/uploads/2023/11/z4925614515113_5bdf67d7e4b3ee98215ea11da9b303e9.jpg",
-          "price": 48.000,
-          "discount": 25.000
-        },
-      {
-          "id": 5,
-          "title": "Trà Bưởi Hồng Trân Châu...",
-          "image": "https://tocotocotea.com/wp-content/uploads/2023/05/O-Long-Man-Kem-Pho-Mai.jpg",
-          "price": 38.000,
-          "discount": 25.000
-        },
-      {
-          "id": 6,
-          "title": "Instant Milk Tea - Strawberry...",
-          "image": "https://tocotocotea.com/wp-content/uploads/2022/06/Stawberry-Milk-Tea.jpg",
-          "price": 165.000,
-          "discount": 65.000
-        },
-      {
-          "id": 7,
-          "title": "Instant Milk Tea - Original - Se..",
-          "image": "https://tocotocotea.com/wp-content/uploads/2022/06/Original-Milk-Tea.jpg",
-          "price": 160.000,
-          "discount": 160.000
-        },
-      {
-          "id": 8,
-          "title": "Instant Milk Tea Strawberry",
-          "image": "https://tocotocotea.com/wp-content/uploads/2021/11/Grass-Jelly-Milk-Coffee.png",
-          "price": 26.000,
-          "discount": 26.000
-        }
-       
+  "products": [
+    {
+      "title": "Trà Sữa Chân Châu Đường Hổ",
+      "price": "33000",
+      "image": "https://tocotocotea.com/wp-content/uploads/2024/01/kem-ly-dau-sua-TEA.png",
+      "description": "Trà sữa trân châu đường hổ - Một hòa quyện độc đáo giữa hương vị truyền thống của trà, sự béo ngậy của sữa và sự ngọt ngào của đường hổ, cùng với những viên trân châu dai dai, tạo nên một trải nghiệm đầy thú vị và thỏa mãn cho vị giác của bạn.",
+      "id": 1
+    },
+    {
+      "title": "Trà Sữa Phô Mai Tươi",
+      "price": "28",
+      "image": "https://tocotocotea.com/wp-content/uploads/2024/01/O-long-tuyet-le-khong-lo.png",
+      "description": "Trà sữa trân châu đường hổ - Một hòa quyện độc đáo giữa hương vị truyền thống của trà, sự béo ngậy của sữa và sự ngọt ngào của đường hổ, cùng với những viên trân châu dai dai, tạo nên một trải nghiệm đầy thú vị và thỏa mãn cho vị giác của bạn.",
+      "id": 2
+    },
+    {
+      "title": "Trà Đào Dâu Tây Kem Phô Mai",
+      "price": "46",
+      "image": "https://tocotocotea.com/wp-content/uploads/2023/12/z4967287161207_d582f10a876bcc7359666df4f2ec76c5.jpg",
+      "description": "Trà sữa trân châu đường hổ - Một hòa quyện độc đáo giữa hương vị truyền thống của trà, sự béo ngậy của sữa và sự ngọt ngào của đường hổ, cùng với những viên trân châu dai dai, tạo nên một trải nghiệm đầy thú vị và thỏa mãn cho vị giác của bạn.",
+      "id": 3
+    },
+    {
+      "title": "Trà Mận Hạt Sen",
+      "price": "48",
+      "image": "https://tocotocotea.com/wp-content/uploads/2023/11/z4925614515113_5bdf67d7e4b3ee98215ea11da9b303e9.jpg",
+      "description": "Trà sữa trân châu đường hổ - Một hòa quyện độc đáo giữa hương vị truyền thống của trà, sự béo ngậy của sữa và sự ngọt ngào của đường hổ, cùng với những viên trân châu dai dai, tạo nên một trải nghiệm đầy thú vị và thỏa mãn cho vị giác của bạn.",
+      "id": 4
+    },
+    {
+      "title": "Trà Bưởi Hồng Trân Châu...",
+      "price": "38",
+      "image": "https://tocotocotea.com/wp-content/uploads/2023/05/O-Long-Man-Kem-Pho-Mai.jpg",
+      "description": "Trà sữa trân châu đường hổ - Một hòa quyện độc đáo giữa hương vị truyền thống của trà, sự béo ngậy của sữa và sự ngọt ngào của đường hổ, cùng với những viên trân châu dai dai, tạo nên một trải nghiệm đầy thú vị và thỏa mãn cho vị giác của bạn.",
+      "id": 5
+    },
+    {
+      "title": "Instant Milk Tea - Strawberry...",
+      "price": "165",
+      "image": "https://tocotocotea.com/wp-content/uploads/2022/06/Stawberry-Milk-Tea.jpg",
+      "description": "Trà sữa trân châu đường hổ - Một hòa quyện độc đáo giữa hương vị truyền thống của trà, sự béo ngậy của sữa và sự ngọt ngào của đường hổ, cùng với những viên trân châu dai dai, tạo nên một trải nghiệm đầy thú vị và thỏa mãn cho vị giác của bạn.",
+      "id": 6
+    },
+    {
+      "title": "Instant Milk Tea - Original - Se..",
+      "price": "160",
+      "image": "https://tocotocotea.com/wp-content/uploads/2022/06/Original-Milk-Tea.jpg",
+      "description": "Trà sữa trân châu đường hổ - Một hòa quyện độc đáo giữa hương vị truyền thống của trà, sự béo ngậy của sữa và sự ngọt ngào của đường hổ, cùng với những viên trân châu dai dai, tạo nên một trải nghiệm đầy thú vị và thỏa mãn cho vị giác của bạn.",
+      "id": 7
+    },
+    {
+      "title": "Instant Milk Tea Strawberry",
+      "price": "26",
+      "image": "https://tocotocotea.com/wp-content/uploads/2021/11/Grass-Jelly-Milk-Coffee.png",
+      "description": "Trà sữa trân châu đường hổ - Một hòa quyện độc đáo giữa hương vị truyền thống của trà, sự béo ngậy của sữa và sự ngọt ngào của đường hổ, cùng với những viên trân châu dai dai, tạo nên một trải nghiệm đầy thú vị và thỏa mãn cho vị giác của bạn.",
+      "id": 8
+    }
   ]
 }

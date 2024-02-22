@@ -24,7 +24,9 @@ import showToast from "./src/utils/toastMessage";
 import ProductForm from "./src/pages/admin/ProductForm";
 import CartPage from "./src/pages/CartPage";
 import handleCart from "./src/components/handleCart";
+import editProduct from "./src/pages/admin/editProduct";
 import { checkAdmin } from "./src/utils/checkPermission";
+import handleEditProductForm from "./src/components/handleEditProduct";
 const app = document.getElementById("app");
 
 router.on(
@@ -60,21 +62,27 @@ router.on(
     },
   }
 );
-// router.on(
-//   "/admin/add/:id",
-//   () => {
-//     if (checkAdmin()) {
-//       render(app, ProductForm);
-//     } else {
-//       window.location.href = "/";
-//     }
-//   },
-//   {
-//     after({ data }) {
-//       handleProductForm(data);
-//     },
-//   }
-// );
+router.on(
+  "/admin/add/:id",
+  () => {
+    if (checkAdmin()) {
+      render(app, editProduct);
+    } else {
+      window.location.href = "/";
+    }
+  },
+  {
+    after: (data) => { // Sử dụng callback after để chạy khi route kết thúc
+      const productId = data.data.id; // Lấy id từ dynamic route parameters
+      console.log(productId); // In ra id để kiểm tra
+      // Tiếp tục xử lý tại đây nếu cần
+      console.log(data)
+      if (productId) {
+        handleEditProductForm(productId); 
+      }
+    },
+  }
+);
 
 router.on("/cart", () => render(app, CartPage), {
   after() {

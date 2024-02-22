@@ -1,13 +1,12 @@
 import layout from "./admin_layout";
-import showToast from "../../utils/toastMessage";
-const ProductForm = () => {
+const editProduct = () => {
   return `
   ${layout}
   <main class="app-content">
   <div class="app-title">
     <ul class="app-breadcrumb breadcrumb">
       <li class="breadcrumb-item"><a href="/admin/">Danh sách sản phẩm</a></li>
-      <li class="breadcrumb-item"><a href="/admin/add">Thêm sản phẩm</a></li>
+      <li class="breadcrumb-item"><a href="/admin/add">Sửa sản phẩm</a></li>
     </ul>
   </div>
   <div class="row">
@@ -37,7 +36,7 @@ const ProductForm = () => {
               <textarea class="form-control" id="description" name="description" ></textarea>
             </div>
             <div class="form-group col-md-12">
-            <button class="btn btn-save" id="save">Lưu lại</button>
+            <button class="btn btn-save" id="edit">Cập nhật</button>
 
               <a class="btn btn-cancel" href="/admin" >Hủy bỏ</a>
             </div>
@@ -48,4 +47,4 @@ const ProductForm = () => {
 `;
 
 }
-export default ProductForm;
+export default editProduct;

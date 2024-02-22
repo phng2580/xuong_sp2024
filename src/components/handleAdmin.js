@@ -8,6 +8,12 @@ const handleAdmin = () => {
     router.navigate("/admin/add");
   });
   const handleDelete = (productId) => {
+    // Hiển thị hộp thoại xác nhận trước khi thực hiện xóa
+    const confirmed = confirm("Are you sure you want to delete this product?");
+    if (!confirmed) {
+      return; // Người dùng đã hủy xác nhận, không làm gì cả
+    }
+  
     instance
       .delete(`/products/${productId}`)
       .then((res) => {
@@ -20,6 +26,7 @@ const handleAdmin = () => {
         showToast("error", "Delete product failed");
       });
   };
+  
 
   const handleEdit = (productId) => {
     router.navigate(`/admin/add/${productId}`);
@@ -48,7 +55,7 @@ const handleAdmin = () => {
           <td>${product.id}</td>
           <td>${product.title}</td>
           <td>${product.price}</td>
-          <td><img width="100px" src="${product.thumbnail}" /></td>
+          <td><img width="100px" src="${product.image}" /></td>
           <td>${product.description}</td>
           <td>
           <button class="btn btn-warning btn-edit" data-product-id="${

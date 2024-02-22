@@ -12,9 +12,9 @@ const saveProduct = async () => {
       // Kiểm tra nếu các trường bắt buộc chưa được điền
       if (!nameProduct || !price || !images || !description) {
         showToast("warning", "Vui lòng điền đầy đủ thông tin sản phẩm");
-        return;
+        return false;
       }
-  
+  else{
       // Tạo đối tượng dữ liệu để gửi lên server
       const data = {
         title: nameProduct,
@@ -42,7 +42,7 @@ const saveProduct = async () => {
       } else {
         console.error("Lỗi khi thêm sản phẩm. Mã lỗi:", response.status);
         showToast("error", "Thêm sản phẩm thất bại");
-      }
+      }}
     } catch (error) {
       console.error("Lỗi khi thực hiện yêu cầu:", error);
       showToast("error", "Thêm sản phẩm thất bại");

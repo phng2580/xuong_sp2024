@@ -13,10 +13,11 @@ const addProduct = ()=> {
     console.log( title);
 
     // Kiểm tra nếu các trường bắt buộc chưa được điền
-    // if (!title || !price || !images || !description) {
-    //   showToast("warning", "Vui lòng điền đầy đủ thông tin sản phẩm");
-    //   return;
-    // }
+    if (!title || !price || !images || !description) {
+      showToast("Không được để trống!", 10000, "warning");
+      showToast();
+      return;
+    }
 
     // Tạo đối tượng dữ liệu để gửi lên server
     const data = {

@@ -3,9 +3,7 @@
 const layout = () => {
   return /*html*/ `
       <!-- User Menu-->
-      <li><a classgit ="app-nav__item" href="/index.html"><i class="fa-solid fa-right-from-bracket"></i> </a>
-  
-      </li>
+    
     </ul>
   </header>
   
